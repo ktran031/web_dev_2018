@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<!-- USE GET NOT POST -->
+<form method="GET" action="">
+    <span>Last Name: </span><input type="text" name="firstname"><br>
+    First Name: <input type="text" name="lastname"><br>
+    Email: <input type="email" name="email" required><br>
+    Password: <input type="password" name="password" min="5"><br>
+    Birthday: <input type="date" name="birthday"><br>
+    Gender: <br>
+    <input type="radio" name="gender" value="Male">Male<br>
+    <input type="radio" name="gender" value="Female">Female<br>
+    <input type="radio" name="gender" value="Other">Other<br>
+    Pets: <br>
+    <input type="checkbox" name="cat" value="Cat">Cat<br>
+    <input type="checkbox" name="dog" value="Dog">Dog<br>
+    Cars: <br>
+    <select name="cars" id="" multiple>
+        <option value="volvo" name="volvo">Volvo</option>
+        <option value="BMW" name="bmw">BMW</option>
+        <option value="Honda" name="honda">Honda</option>
+    </select>
+    <br>
+    <input type="submit" value="Register!">
+    <input type="reset">
+</form>
+
+
+<!--
+QueryStrings
+
+register.html?firstname=khoi&lastname=tran&email=Ktran031%40gmail.com&password=1234&birthday=1991-09-20&gender=Male&cat=Cat&cars=BMW
+-->
+</body>
+</html>
