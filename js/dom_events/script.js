@@ -1,7 +1,7 @@
 var enterButton = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
-var lis = [...document.querySelectorAll("li")];
+var lis = document.querySelectorAll("li");
 
 function inputLength() {
 	var inputStr = input.value;
