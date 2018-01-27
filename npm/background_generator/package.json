@@ -1,0 +1,14 @@
+{
+  "name": "background_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
