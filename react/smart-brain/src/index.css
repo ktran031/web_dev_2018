@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: #e4efc0; /* Old browsers */
+  background: -moz-linear-gradient(left, #e4efc0 0%, #abbd73 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e4efc0 0%,#abbd73 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e4efc0 0%,#abbd73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=1 ); /* IE6-9 */
+}
+
+button {
+  cursor: pointer;
+}
